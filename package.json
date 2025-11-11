@@ -1,7 +1,7 @@
 {
   "name": "vercel-youtube-api",
   "version": "1.0.0",
-  "description": "Vercel API for fetching YouTube channel info via scraping + API",
+  "description": "Vercel API for fetching YouTube channel info via scraping + YouTube Data API",
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
@@ -11,10 +11,10 @@
   "author": "YourName",
   "license": "MIT",
   "dependencies": {
-    "next": "^14.0.0",
+    "next": "^14.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "node-fetch": "^3.4.2"
+    "node-fetch": "^3.3.2"
   },
   "type": "module"
 }
